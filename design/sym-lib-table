@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BLDC_4-rescue")(type "Legacy")(uri "${KIPRJMOD}/BLDC_4-rescue.lib")(options "")(descr ""))
+  (lib (name "BM10B-GHS-TBT_LF__SN__N_")(type "KiCad")(uri "${KIPRJMOD}/Libraries/jst-gh/BM10B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
+)
