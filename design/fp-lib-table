@@ -5,5 +5,5 @@
   (lib (name "w_smd_cap")(type "Legacy")(uri "$(KIPRJMOD)/Libraries/w_smd_cap.mod")(options "")(descr ""))
   (lib (name "JST conn")(type "KiCad")(uri "$(KIPRJMOD)/Libraries/w_conn_jst-ph.pretty")(options "")(descr ""))
   (lib (name "w_smd_diode")(type "Legacy")(uri "$(KIPRJMOD)/Libraries/w_smd_diode.mod")(options "")(descr ""))
-  (lib (name "jst-gh")(type "KiCad")(uri "${KIPRJMOD}/Libraries/jst-gh/JST_BM10B-GHS-TBT_LF__SN__N_.kicad_mod")(options "")(descr ""))
+  (lib (name "jst-gh")(type "KiCad")(uri "${KIPRJMOD}/Libraries/jst-gh")(options "")(descr ""))
 )
