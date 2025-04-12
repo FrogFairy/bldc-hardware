@@ -2764,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "360"
 			(at 198.12 118.11 90)
 			(effects
 				(font
@@ -3470,7 +3470,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "360"
 			(at 198.12 138.43 90)
 			(effects
 				(font
@@ -3670,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "360"
 			(at 198.12 36.83 90)
 			(effects
 				(font
@@ -4282,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "360"
 			(at 198.12 77.47 90)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "360"
 			(at 198.12 97.79 90)
 			(effects
 				(font
@@ -5242,7 +5242,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "360"
 			(at 198.12 57.15 90)
 			(effects
 				(font
