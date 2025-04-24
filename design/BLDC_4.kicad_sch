@@ -5567,11 +5567,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PMEG1020EJ"
+		(symbol "Diode:SS24"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -5585,7 +5586,7 @@
 					)
 				)
 			)
-			(property "Value" "PMEG1020EJ"
+			(property "Value" "SS24"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5593,7 +5594,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -5602,7 +5603,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG1020EH_EJ.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5611,7 +5612,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-323F"
+			(property "Description" "40V 2A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5620,7 +5621,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "forward voltage diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5629,7 +5630,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323F*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5638,13 +5639,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMEG1020EJ_0_1"
+			(symbol "SS24_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -5656,7 +5657,7 @@
 						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -5676,7 +5677,7 @@
 					)
 				)
 			)
-			(symbol "PMEG1020EJ_1_1"
+			(symbol "SS24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -15853,7 +15854,25 @@
 			"Cv/bZUoNRnjq0jP+CkpApnUIJuBgY21U8sklcLgMcDBfLQ7wYyQOQIP5CMQW3CuweHQv2g3+l4a/"
 			"tIpRNXDlW8jnedCpIRPSpBQMPKZf1nr419dPrpEJIURQ0aGXA5jAqYvkkY/Hn5EnaVIdSeSSsC0/"
 			"rswYMAEIRO8a/Qjx5LBeNj4LWPHXLrDiMb0GSPMAWq4nAOqPHxVuDuhV+4MAFH/tAige02t/6PSS"
-			"A1qUZaohHanuKsaJE9YHIyrIHN5e4xLj/MEshdRgOElffg=="
+			"A1qUZaohHanuKsaJE9YHIyrIHN5e4xLj/MEshdRgOElffgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -18017,7 +18036,25 @@
 			"AG8AMgBWAFgAQwBsADgAdgBUAEsAYgBSAFcAVgBMAEYAcgB5AEIATAAwAFoARAA5AHAAeQBiAEwA"
 			"bABzAEQAUAAyADYAbABQAEEAMABNADkAWAByAHIAMwBFAEEAeQB1AEQAKwAwAFEAMABiAE4AcgBS"
 			"ADEAOQAxAEwAaAA3AGUAMgAzADMAeQA0AHYATAA5AGYAMgBqAFgAagA5ADkAYgBQAFAAUABsAHMA"
-			"eg=="
+			"egBjAC8AbgB5ADUAYwBPAEcARABhAE4AKwB6AEMAMABIAHQAOQBHAFoATABTADAAdAA0ADgAYQBO"
+			"AG8AMABzAGUAKwAyAEkARABuAFIAawBLAGgAUgBpAFEAZgBmAFYAaAB2AEEAbQA5AEoARQBsADAA"
+			"OQBYAEEANAAvAFAAbQA3AC8ANgBZAHoAWABTADUAaAA4AE8ARABCAGwATgBKAFcAcgBGAGgAQgBa"
+			"AHoAYgBDAGkAVwAzAGIAdABtAG4ARwB2AHgARgBPAGIATgB5ADQAVQBUAE4AegArAFoAZAB2AEwA"
+			"VgArAHUATgBVAGoATQArAC8ASgB2AFQAbAAwAHIAVQAyAEMAQwBTADIAYQBVAEUAeQBVAEsAYwBI"
+			"AHoAaQAxAE0ANwBnAHEATgAvADIAdQB1ADkAVQBkAE8ANwBSAFEAeABTAHAANgA1AE8AWABSAE8A"
+			"ZABnAGoARwBuADUAQwBUAFAASQArAC8AegB6AGUAaQA2AFIAUAA0ADYARgA2AGgAcwBhAEwASwB4"
+			"ADQAUABDAFUAQQBRAFkAUAAxADAANQBQAGUAcQAvAHYAWgBqAGoAMgAwAGkAawBwAFYAVgBaAFgA"
+			"bQBEAEUAegA0AHMAZQBjAG4AcgBxAFcAOABjAFQAbwBoAGkAbQBMAEgAagBoADAAcAA1AE4ASAA0"
+			"AGIAagA1AG0AZQA4AGQAZQAvAE4AbgBCAEYANQBJADYAbAAxAGoAWQBIAEsATwAwADAAUgBmAGQA"
+			"eQBvAHEAVgAyAEsARQBmAHQAZQAxAGUAbQAvAHYAWQBlAGcAQQBuAFQANQA1AFMAbwByAEkAbgA0"
+			"AEEARwBJAHMANQB5AEEANABlADkAWABiAEIAcwB3AEEARgAwADIAYgA2AGgAYQB4ADkASABnAHQA"
+			"NgBrAFoAVABMACsASwAvAHAAVAB6AGcATAB1ADUAZwB2AHAAWgBXAFYAagB2ACsARgBkAEIARQBI"
+			"AEoAcgB5AFcATgBtAHYASQBRAEoAdABrAFcAMgB5AHcAZABaAFcALwBMAFkAQgBLAE4AMgBRAGsA"
+			"ZwBrAEUAaQBrAHIASwA3AFAAYwBhAHEAWgBVADAASwBYAHkAYwBxAHUAYwBGAFUAUABtAHoASABq"
+			"AGEAYgBJAHkARQBtADYATABOAFEAdwB5AHIAbwAxAEgAUgB5AC8AUwBSAEkAMABmAEcAagBCAG4A"
+			"RAArAHoARQBCADQATwBUAEoAawA4AHgAcwBkAHYAQwBUAHcAMwBSAG0ASgBCAEkAWgBNAG0AUQBJ"
+			"AG4AYgBsAHoAWABUAHcARgBVAGgAVABGAG8AVQBPAEgAaABrAEsAaAAxAHQAWgBXAEMAbgBtAE4A"
+			"WA=="
 		)
 	)
 	(label "SCK_ADC_EXT"
@@ -21217,31 +21254,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG1020EJ")
+		(lib_id "Diode:SS24")
 		(at 76.2 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "36892227-52bf-487c-b0b1-7ed69f96b910")
-		(property "Reference" "D6"
-			(at 76.5175 52.07 0)
+		(fields_autoplaced yes)
+		(uuid "66613b8e-4879-41d4-8112-9d01df283dd2")
+		(property "Reference" "D7"
+			(at 76.5175 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Diode 2A"
-			(at 76.2 42.926 0)
+		(property "Value" "SS24"
+			(at 76.5175 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 76.2 41.275 0)
 			(effects
 				(font
@@ -21250,7 +21288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG1020EH_EJ.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -21259,7 +21297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-323F"
+		(property "Description" "40V 2A Schottky Diode, SMA"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -21267,17 +21305,17 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f7046c30-4787-48af-999e-118c151b6d17")
 		)
 		(pin "2"
-			(uuid "fbf44406-d777-4bca-83cf-3599bdf579f5")
+			(uuid "620651c4-776a-4a1a-ad35-11f26a3d923a")
+		)
+		(pin "1"
+			(uuid "7d4d08f8-9b46-492b-9858-b289ed2d4259")
 		)
 		(instances
-			(project "BLDC_4"
+			(project ""
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
