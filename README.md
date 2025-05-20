@@ -1,21 +1,9 @@
-VESC – Open Source ESC
-=============
-
-This the Hardware for my open source custom ESC.
-
 ## Schematic top level
-![alt tag](design/PNGs/Schematic-1.png)
+![Schematic](https://github.com/user-attachments/assets/4d119b00-ac06-435c-81d0-f7694f0bb5bb)
 
 ## Layout -made with KiCad!-
-![alt tag](design/PNGs/layout_4.12.png)
+![Layout](https://github.com/user-attachments/assets/43c52898-cc7a-4699-8701-7d2c5bc03f41)
 
 ## 3D views
-![alt tag](design/PNGs/3D_front.png)
-![alt tag](design/PNGs/3D_back.png)
-
-Update: The BOM is no longer available on google docs, it is included in the design folder as an .ods file.
-
-Have a look at this post for a tutorial on how to get started:
-http://vedder.se/2015/01/vesc-open-source-esc/
-
-VESC Hardware is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+![3D_1](https://github.com/user-attachments/assets/bbd3a607-6a3d-44e5-b0a2-0ce21a39a7d3)
+![3d_2](https://github.com/user-attachments/assets/5bb87e64-c746-4b08-98bf-9565164fc6c9)
