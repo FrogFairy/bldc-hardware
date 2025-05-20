@@ -1,5 +1,5 @@
 ## Schematic top level
-![Schematic](https://github.com/user-attachments/assets/4d119b00-ac06-435c-81d0-f7694f0bb5bb)
+![new](https://github.com/user-attachments/assets/75d1026e-def8-46fd-bc1f-d4330630250e)
 
 ## Layout -made with KiCad!-
 ![Layout](https://github.com/user-attachments/assets/43c52898-cc7a-4699-8701-7d2c5bc03f41)
