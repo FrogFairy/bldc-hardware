@@ -1,0 +1,170 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.1"
+    },
+    "CreationDate": "2025-05-08T23:40:52+03:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "BLDC_4",
+      "GUID": "424c4443-5f34-42e6-9b69-6361645f7063",
+      "Revision": "A"
+    },
+    "Size": {
+      "X": 39.12,
+      "Y": 85.12
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1778,
+      "PadToTrack": 0.1778,
+      "TrackToTrack": 0.1778,
+      "MinLineWidth": 0.2032,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1778,
+      "PadToTrack": 0.1778,
+      "TrackToTrack": 0.1778,
+      "MinLineWidth": 0.2032,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "BLDC_4-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-GND.g1",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-GND2.g2",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BLDC_4-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "BLDC_4-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "BLDC_4-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "F.Cu/GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "GND/GND2",
+      "Notes": "Type: dielectric layer 2 (from GND to GND2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "GND2/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from GND2 to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

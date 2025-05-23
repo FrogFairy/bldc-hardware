@@ -5,42 +5,51 @@
 	(uuid "df60a61f-7fbd-4375-82e2-bee50fc1f60c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
+		(symbol "C-RESCUE-BLDC_4_37"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "C"
+				(at 0 2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "C-RESCUE-BLDC_4"
+				(at 0.1524 -2.159 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Field5" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_fp_filters" "SM* C? C1-1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,61 +76,65 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "C-RESCUE-BLDC_4_37_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "C-RESCUE-BLDC_4_37_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 5.08 270)
+					(length 4.318)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -5.08 90)
+					(length 4.318)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -226,76 +239,852 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R-RESCUE-BLDC_4_22"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R-RESCUE-BLDC_4"
+				(at 0.1778 0.0254 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-RESCUE-BLDC_4_22_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-RESCUE-BLDC_4_22_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R-RESCUE-BLDC_4_29"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R-RESCUE-BLDC_4"
+				(at 0.1778 0.0254 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-RESCUE-BLDC_4_29_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-RESCUE-BLDC_4_29_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Relay_SolidState:CPC1002N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPC1002N"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET Output Photorelay 1-Form-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOP*3.8x4.1mm*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CPC1002N_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 2.54) (xy -3.175 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.508) (xy -0.635 0.508) (xy -1.016 0.381) (xy -1.016 0.635) (xy -0.635 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.508) (xy -0.635 -0.508) (xy -1.016 -0.635) (xy -1.016 -0.381) (xy -0.635 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.762) (xy 1.016 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.889) (xy 1.524 0.635) (xy 1.524 0.635)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 2.794 0.762) (xy 2.794 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.127) (xy 1.524 -0.127) (xy 1.524 -0.127)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 2.794 0) (xy 2.794 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.635) (xy 1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 2.794 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 2.286 0.127) (xy 2.286 -0.127) (xy 1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.794 1.397)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.794 -0.762)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.397) (xy 3.81 -1.397) (xy 3.81 1.397) (xy 2.794 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.794 -1.397)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 0.381) (xy 4.191 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.381) (xy 3.429 -0.381) (xy 4.191 -0.381) (xy 3.81 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CPC1002N_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 165.1 96.52)
+		(at 102.87 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "204902ca-eb62-4111-98b9-f25a3e4c1b32")
+		(uuid "033993d8-589b-4f30-ad68-bc6a47026d6a")
 	)
 	(junction
-		(at 140.97 125.73)
+		(at 153.67 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1335d906-e44d-4d4b-935c-265732d49c70")
+	)
+	(junction
+		(at 78.74 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28414ff9-af53-44d9-8504-7de14ee105f8")
 	)
 	(junction
-		(at 140.97 68.58)
+		(at 153.67 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28d04340-9797-4850-affa-276646faabad")
+	)
+	(junction
+		(at 208.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cf33034-f9dd-4e54-adb3-a8c2d15396a0")
+	)
+	(junction
+		(at 78.74 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "388c26ba-6945-4b0e-83ea-93a059260707")
+	)
+	(junction
+		(at 102.87 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39023b47-3149-43eb-9b56-066c1ca5e91d")
+	)
+	(junction
+		(at 102.87 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4125e259-9110-434f-a79b-2787e6f4728a")
+	)
+	(junction
+		(at 78.74 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "436f918c-8a30-4d84-9757-e76368954bbb")
+	)
+	(junction
+		(at 153.67 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46dd3888-d95d-44c5-820f-117ce27d16d8")
+	)
+	(junction
+		(at 102.87 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49c7e2ad-fb2c-4b41-b2eb-e544e336c518")
+	)
+	(junction
+		(at 102.87 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bb09ac3-5926-497d-a597-5c507cfbe3f1")
+	)
+	(junction
+		(at 208.28 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537aa1ad-ebe6-487b-a7f4-0596b6abbcef")
+	)
+	(junction
+		(at 78.74 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55502718-1782-43b3-a52a-c6b5c59c94a4")
 	)
 	(junction
-		(at 140.97 110.49)
+		(at 153.67 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "611e9761-e5e2-46b4-840a-e34740da7244")
+		(uuid "59532846-a69d-4d80-ab92-9a7a15b830bf")
 	)
 	(junction
-		(at 165.1 82.55)
+		(at 78.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67114d3d-d0f6-4ab6-81f0-fbf4eaa9a8a6")
+		(uuid "6de9654f-7353-4c33-a6a8-321e9d1a6032")
 	)
 	(junction
-		(at 140.97 82.55)
+		(at 102.87 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c42dd5-701e-4ddb-96e7-0d3f9758b72f")
+	)
+	(junction
+		(at 102.87 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d716d33-e198-4509-81e7-ce562b728aac")
+	)
+	(junction
+		(at 78.74 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b3538dc-7f43-4a97-b252-31159b0d7f47")
+	)
+	(junction
+		(at 78.74 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "930428ec-84d1-48b9-afda-84b5531d2fe9")
 	)
 	(junction
-		(at 165.1 68.58)
+		(at 102.87 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5685eef-ce04-4ac1-86a5-90de7712b981")
+		(uuid "a10307a6-6847-4f7c-9afc-a88f206ae58c")
 	)
 	(junction
-		(at 165.1 110.49)
+		(at 78.74 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af2fe4c5-12e3-439c-9979-092ab9f92a42")
+		(uuid "a2b096b1-bfad-4266-8b33-6efe58e48f68")
 	)
 	(junction
-		(at 140.97 54.61)
+		(at 153.67 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a83c6f14-b2d2-4519-bf27-76729da1e890")
+	)
+	(junction
+		(at 208.28 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92b38eb-378b-40dd-b08a-aca4433ae093")
+	)
+	(junction
+		(at 78.74 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b539d7fa-0e00-475b-b416-c43354f8b8c8")
+	)
+	(junction
+		(at 208.28 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7fa4473-c90c-432e-8153-44944a6a4534")
+	)
+	(junction
+		(at 78.74 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbc681ee-10db-42d0-a417-8f0466c41153")
+	)
+	(junction
+		(at 78.74 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c44ff045-d4c0-497d-9a1d-d38729be39a9")
 	)
 	(junction
-		(at 140.97 96.52)
+		(at 102.87 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb70ff21-5c37-4e93-bb06-083bca5a0d3b")
+	)
+	(junction
+		(at 78.74 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d570aca7-f0b8-4582-b392-09ea92e3cba6")
 	)
 	(junction
-		(at 165.1 90.17)
+		(at 208.28 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e65b5822-635e-42b3-8ca0-463193c71b8d")
+		(uuid "e6a28044-3048-44e2-aa37-6fa3137ea32c")
+	)
+	(junction
+		(at 102.87 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6dc53eb-1cc6-4c4a-8331-65fdb5b421aa")
+	)
+	(junction
+		(at 153.67 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7105cc1-dab8-4dbc-b85a-c227c6803ef7")
+	)
+	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa731d0d-0765-4488-98c5-c99489fb1579")
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 143.51 76.2)
+			(xy 102.87 92.71) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00825bab-1ab9-4df4-84b8-21cfd89fba1e")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 83.82 68.58)
 		)
 		(stroke
 			(width 0)
@@ -305,37 +1094,177 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 130.81 54.61)
+			(xy 102.87 74.93) (xy 102.87 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "023c5f74-3e77-44a0-81f6-83d3be61540f")
+		(uuid "02198d6f-2f3f-4eb4-9df1-470ae511b6a3")
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 130.81 68.58)
+			(xy 153.67 27.94) (xy 208.28 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18a0df9d-e009-4b94-9956-f3ef9066b7e4")
+		(uuid "051f0d89-cf7b-411f-a1e4-7de0564c8444")
 	)
 	(wire
 		(pts
-			(xy 149.86 125.73) (xy 165.1 125.73)
+			(xy 151.13 80.01) (xy 153.67 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18fb02a6-1147-4e2b-94ec-16a21b1768d0")
+		(uuid "05f856d1-539c-44c5-b0dc-78108b632ecb")
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 140.97 110.49)
+			(xy 208.28 97.79) (xy 208.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076e6ba3-b244-4d0a-ae55-64decd55cecd")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088ad506-aa37-4c49-8ddf-50ccb9bd3ca1")
+	)
+	(wire
+		(pts
+			(xy 208.28 27.94) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09988f6c-3e13-4dd0-bcb3-395825ac8e86")
+	)
+	(wire
+		(pts
+			(xy 151.13 39.37) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba49e1f-9b4f-4601-a924-de0cd2c2b196")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c912d72-556e-423d-b8e3-43d37c464f33")
+	)
+	(wire
+		(pts
+			(xy 172.72 149.86) (xy 170.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e002480-5f16-4134-ab6a-6399a8abf6ae")
+	)
+	(wire
+		(pts
+			(xy 172.72 33.02) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9006b3-2078-4c23-a59a-f7df629dd7bd")
+	)
+	(wire
+		(pts
+			(xy 172.72 118.11) (xy 172.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d4992c-8ec6-4dd4-9395-652ef7b381e6")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134eb2d5-2edb-4600-8a15-c0939694c915")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 102.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17175c05-e416-4117-8a9b-c5cfd4652565")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1913feb1-de78-41c2-b52e-7b2da23e1a72")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 102.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19826771-9416-48a2-88cc-55298d83d0d7")
+	)
+	(wire
+		(pts
+			(xy 102.87 113.03) (xy 102.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b574ac8-d011-4b79-b751-65071feb59fa")
+	)
+	(wire
+		(pts
+			(xy 187.96 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b87d3c5-e5d6-4c0c-8b93-45d5e814cf6e")
+	)
+	(wire
+		(pts
+			(xy 76.2 120.65) (xy 78.74 120.65)
 		)
 		(stroke
 			(width 0)
@@ -345,27 +1274,27 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 165.1 125.73)
+			(xy 153.67 68.58) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "258b0f98-f704-4298-89c2-fba01d0c4888")
+		(uuid "20badf21-1f4c-4031-8a51-52054a56405d")
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 165.1 82.55)
+			(xy 151.13 120.65) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "298c4f6f-307e-452e-b1b1-4dd41bda842e")
+		(uuid "261ba894-77dc-425a-b64f-41ec82ee312e")
 	)
 	(wire
 		(pts
-			(xy 149.86 54.61) (xy 165.1 54.61)
+			(xy 96.52 45.72) (xy 102.87 45.72)
 		)
 		(stroke
 			(width 0)
@@ -375,7 +1304,27 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 140.97 68.58)
+			(xy 153.67 27.94) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd7b032-6122-4060-959a-e594761c8af7")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa6b225-4595-45b3-9cd6-ecd06716a2b9")
+	)
+	(wire
+		(pts
+			(xy 76.2 64.77) (xy 78.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -385,7 +1334,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 142.24 82.55)
+			(xy 208.28 77.47) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ddff38-9744-4639-a7b4-36409ce14f98")
+	)
+	(wire
+		(pts
+			(xy 187.96 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355102e2-8751-4787-8f32-8de8bd70ec4c")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 83.82 82.55)
 		)
 		(stroke
 			(width 0)
@@ -395,17 +1364,127 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 68.58) (xy 165.1 82.55)
+			(xy 102.87 120.65) (xy 102.87 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41c96b15-41c2-4e73-8ee6-b1d2a14929bc")
+		(uuid "35f63415-2187-4024-9066-6e59fc3e1c33")
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 140.97 76.2)
+			(xy 187.96 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36330a8c-27a4-4d8e-aaac-2aa8fa52089e")
+	)
+	(wire
+		(pts
+			(xy 78.74 113.03) (xy 78.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37661a2c-c809-4330-8e9e-fd239cfe50f6")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 157.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376fdc12-578d-4afa-9b79-073a7719612f")
+	)
+	(wire
+		(pts
+			(xy 187.96 118.11) (xy 191.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a15786-5848-4076-9273-080c03f81a47")
+	)
+	(wire
+		(pts
+			(xy 172.72 57.15) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf5a82f-086d-4777-ac40-05eb794e1e5c")
+	)
+	(wire
+		(pts
+			(xy 78.74 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e838187-021f-4497-9b07-a5a03dd2e8e5")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416e6604-6aa8-4af5-8d37-31fb80fe6187")
+	)
+	(wire
+		(pts
+			(xy 78.74 74.93) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46798aa7-36c3-41d5-9940-72b812e212c6")
+	)
+	(wire
+		(pts
+			(xy 172.72 36.83) (xy 172.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dea2d4-8888-4a85-bf71-1eaee7786cb3")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 102.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4912930b-4315-43da-83d0-b40c986a7682")
+	)
+	(wire
+		(pts
+			(xy 204.47 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c0a35f-3cee-4e7f-977e-067027e06564")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 54.61) (xy 140.97 48.26)
+			(xy 78.74 45.72) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +1504,37 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 119.38) (xy 140.97 119.38)
+			(xy 187.96 82.55) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba07920-f0ab-41fe-abd3-9d1e6c1dcd90")
+	)
+	(wire
+		(pts
+			(xy 153.67 149.86) (xy 157.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4b963d-a952-4a38-8279-bf5b2a2034f8")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5227f36a-20e3-4ba3-a025-0d9d65879dd5")
+	)
+	(wire
+		(pts
+			(xy 83.82 124.46) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -435,17 +1544,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 90.17)
+			(xy 78.74 57.15) (xy 85.09 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55a27605-f806-441d-9f22-5cb3840b4325")
+		(uuid "56a309c5-f0c4-4c54-a143-1fba0aaf9c01")
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 130.81 82.55)
+			(xy 62.23 82.55) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -455,27 +1564,87 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 110.49) (xy 142.24 110.49)
+			(xy 62.23 64.77) (xy 63.5 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c8859bd-c69c-46df-8561-26ca39accc85")
+		(uuid "5af440a7-29a9-454a-9a6f-dd6715355e03")
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 165.1 96.52)
+			(xy 102.87 130.81) (xy 102.87 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6691a466-cb3f-40a4-9a19-b87df5a23c31")
+		(uuid "5e2ab855-479d-473a-9a19-0739784ce03e")
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 143.51 90.17)
+			(xy 208.28 57.15) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a147f2-1d11-4a19-9907-7a1b49a5ae4c")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d31749-0f44-43bb-b69b-38b70856d7b9")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 85.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6535ccf1-b8a5-4bc6-88c0-631ebae56d7d")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6907f4c7-eaf0-4a86-b1d0-29a2cc2a0ed1")
+	)
+	(wire
+		(pts
+			(xy 172.72 102.87) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69305041-24fb-41cd-8cf1-8cbe2d72d5d8")
+	)
+	(wire
+		(pts
+			(xy 63.5 45.72) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab66cb2-9e52-4c5b-a386-af19adbf0723")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -485,7 +1654,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 140.97 62.23)
+			(xy 102.87 82.55) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2ce45a-3908-4136-9423-44d0fb7e1c39")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.77) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -495,7 +1674,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 62.23) (xy 143.51 62.23)
+			(xy 78.74 50.8) (xy 83.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -505,7 +1684,77 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 142.24 125.73)
+			(xy 153.67 48.26) (xy 157.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6e1a61-fd02-496d-9205-c03a12ea8da8")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 102.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdffeb9-413b-4ab5-8aae-41ec1c7176e8")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff648cd-58f2-42f8-a215-bf0543586cb6")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 191.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7039aae6-1ad4-401d-a647-56e14f2e08d8")
+	)
+	(wire
+		(pts
+			(xy 153.67 140.97) (xy 153.67 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717cbc3f-9f29-4127-bccd-afc68aa4e6cf")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 153.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74025e56-62a5-4a2f-a75d-2eb22ab058c4")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750744e2-abbd-423b-a0ef-2ef41cedbc43")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 83.82 138.43)
 		)
 		(stroke
 			(width 0)
@@ -515,7 +1764,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 140.97 96.52)
+			(xy 76.2 101.6) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
@@ -525,17 +1774,37 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 130.81 110.49)
+			(xy 172.72 97.79) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7aec9eb7-71bf-4fdc-bd8c-9cd523277dc2")
+		(uuid "7810e386-4e24-4c1e-858d-774e25ee0c0f")
 	)
 	(wire
 		(pts
-			(xy 125.73 96.52) (xy 130.81 96.52)
+			(xy 63.5 120.65) (xy 62.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78597269-e117-472c-a766-20847aff501b")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796d4214-bd11-4b4e-a6ab-3bb5ebdcc5aa")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 63.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -545,7 +1814,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 149.86 110.49)
+			(xy 172.72 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7feddb4f-3d14-4cfa-b073-51871453ff5e")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 102.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +1834,37 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 119.38) (xy 140.97 125.73)
+			(xy 95.25 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857ba5c6-b669-46a4-bfb6-26fa35a046fb")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874ae24d-4944-478a-937a-d7b6eb45b8fe")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d17f9f-585b-4267-846b-2a42cc3ac4ef")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 78.74 130.81)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +1874,87 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 110.49) (xy 140.97 104.14)
+			(xy 153.67 80.01) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1efa38-f8d7-4899-95c2-3b3156fe9395")
+	)
+	(wire
+		(pts
+			(xy 208.28 36.83) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab72599-75f5-4356-9d3f-1a5c5b6dbb0c")
+	)
+	(wire
+		(pts
+			(xy 153.67 24.13) (xy 153.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac35cfa-789c-402a-a7a9-7be98ddfea1d")
+	)
+	(wire
+		(pts
+			(xy 204.47 57.15) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7321f5-fec8-4025-98d0-ff8915d32b5d")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdd6ece-d97a-4de4-9fb1-047f09039e94")
+	)
+	(wire
+		(pts
+			(xy 208.28 118.11) (xy 208.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea5a780-bf78-477a-836f-1a61413abbbc")
+	)
+	(wire
+		(pts
+			(xy 85.09 38.1) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb5e908-f373-44df-ae08-6a5d787637dc")
+	)
+	(wire
+		(pts
+			(xy 204.47 118.11) (xy 208.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f135f2c-2fae-461a-a5cb-bb0ca47b5b42")
+	)
+	(wire
+		(pts
+			(xy 78.74 120.65) (xy 78.74 113.03)
 		)
 		(stroke
 			(width 0)
@@ -575,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 125.73) (xy 140.97 125.73)
+			(xy 76.2 138.43) (xy 78.74 138.43)
 		)
 		(stroke
 			(width 0)
@@ -585,7 +1974,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 140.97 82.55)
+			(xy 96.52 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9268dd46-95e2-4777-acae-ee8c445c2296")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0)
@@ -595,17 +1994,87 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 54.61) (xy 140.97 54.61)
+			(xy 153.67 100.33) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e01a9ec-3ff2-4978-a6a2-0f820dc31d04")
+		(uuid "970e2a00-41f0-4c1d-be95-03f67fb1a2c8")
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 140.97 90.17)
+			(xy 187.96 143.51) (xy 191.77 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9050e3-0863-431e-9f73-704489c7254b")
+	)
+	(wire
+		(pts
+			(xy 78.74 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccad284-19ae-40ed-8970-0ffa68d6ac48")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 102.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd80426-37d7-4c4a-adf2-e64d4e8e0736")
+	)
+	(wire
+		(pts
+			(xy 187.96 138.43) (xy 191.77 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d74e88-4962-4e39-9e98-99650a591e90")
+	)
+	(wire
+		(pts
+			(xy 172.72 48.26) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b7ac6b-ae05-479e-b97e-4556633f7ac4")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 191.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67e69fb-66ed-4ef2-916a-5be9a177da95")
+	)
+	(wire
+		(pts
+			(xy 204.47 138.43) (xy 208.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75ae989-7518-47cd-ae88-e5762fd93ba9")
+	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 78.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -615,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 48.26) (xy 143.51 48.26)
+			(xy 78.74 31.75) (xy 83.82 31.75)
 		)
 		(stroke
 			(width 0)
@@ -625,27 +2094,207 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 165.1 96.52)
+			(xy 172.72 53.34) (xy 153.67 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6fba0e1-b654-4e9b-bd01-9bee9e19db7a")
+		(uuid "ad129d85-8310-46a6-83b2-aca8ed46548d")
 	)
 	(wire
 		(pts
-			(xy 149.86 68.58) (xy 165.1 68.58)
+			(xy 153.67 109.22) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b71df9b1-c2aa-44b4-9859-a799cc53f02d")
+		(uuid "ad5a3b39-7e78-4665-a4c6-14d104178a86")
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 176.53 90.17)
+			(xy 102.87 38.1) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae763722-c56a-45c1-bf29-b4306066e480")
+	)
+	(wire
+		(pts
+			(xy 78.74 113.03) (xy 85.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02d880c-0c33-44cc-abbb-a842aea0dbbe")
+	)
+	(wire
+		(pts
+			(xy 153.67 39.37) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0779725-234b-4b88-b12a-72af9403c1a4")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43bc3da-52ea-4ec8-b1aa-8143c75d810e")
+	)
+	(wire
+		(pts
+			(xy 187.96 123.19) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ed255a-56e2-4f08-826c-eb7b2293e61d")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51a36a6-6b69-4591-9693-d16933010fef")
+	)
+	(wire
+		(pts
+			(xy 78.74 130.81) (xy 78.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b520b2ae-1ad9-4170-8114-d0cf02f44ab3")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87fd6a1-adc0-4a9f-a29c-cc7cb76fa7eb")
+	)
+	(wire
+		(pts
+			(xy 172.72 143.51) (xy 172.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ce5ab0-0647-4f9f-be64-2777421bf7d9")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 153.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08d8a6f-9e26-46f1-ba41-2b8787c0a745")
+	)
+	(wire
+		(pts
+			(xy 172.72 123.19) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e3b1bc-2269-4c13-ba26-43a2a73607ac")
+	)
+	(wire
+		(pts
+			(xy 78.74 130.81) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21cd245-fa26-4bb3-9d98-c602dd2bf38b")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 102.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3915036-19a7-43b4-bc7c-ba3276f8ca6d")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 78.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46733ed-c9ae-43a9-8f3e-9d5cb7dd9b45")
+	)
+	(wire
+		(pts
+			(xy 172.72 41.91) (xy 172.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59d6f6f-71e3-451d-bb95-8d31820cbcef")
+	)
+	(wire
+		(pts
+			(xy 78.74 57.15) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c632096b-9ba8-4a80-9f2e-c66d2259a7a0")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65fd590-0421-462d-98fe-9c52e3bd24e3")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 102.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e77d2e-69c9-4310-9c89-e373ec2d011d")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 115.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -655,27 +2304,77 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 125.73) (xy 130.81 125.73)
+			(xy 153.67 129.54) (xy 153.67 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1e3c9ce-10dd-4124-8b77-68418701c557")
+		(uuid "d19e13e9-0286-4c8b-9352-d7fb3043e7ec")
 	)
 	(wire
 		(pts
-			(xy 140.97 54.61) (xy 142.24 54.61)
+			(xy 102.87 86.36) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df671b1a-ddca-46ee-be3a-b4abb65a434f")
+		(uuid "d3965b4e-97a9-4a4a-a2b5-c1bcfe0c17bf")
 	)
 	(wire
 		(pts
-			(xy 140.97 104.14) (xy 143.51 104.14)
+			(xy 95.25 38.1) (xy 102.87 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d507af6f-e852-43bd-9528-4497cb564a7d")
+	)
+	(wire
+		(pts
+			(xy 153.67 68.58) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ddfce6-af22-4b4c-8222-70a58cbaccc9")
+	)
+	(wire
+		(pts
+			(xy 172.72 82.55) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd730e57-aeee-4f46-ae12-8d14f3806c44")
+	)
+	(wire
+		(pts
+			(xy 151.13 100.33) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e14d1d-6164-426b-a500-d71bc413538e")
+	)
+	(wire
+		(pts
+			(xy 151.13 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d3977a-939f-4f21-9177-37fa1d4fd53e")
+	)
+	(wire
+		(pts
+			(xy 78.74 105.41) (xy 83.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +2384,47 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 142.24 68.58)
+			(xy 172.72 129.54) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6074357-838a-4797-98e5-cf5a8dc40359")
+	)
+	(wire
+		(pts
+			(xy 63.5 138.43) (xy 62.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d4d24e-47a3-4a1e-b7e6-4d38ec9077ba")
+	)
+	(wire
+		(pts
+			(xy 153.67 120.65) (xy 153.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92fd7dd-4b8a-4ab1-8d6c-756bde33a05c")
+	)
+	(wire
+		(pts
+			(xy 102.87 64.77) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98403b4-d27d-4cce-b0bb-08d06c404955")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.77) (xy 83.82 64.77)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +2434,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 165.1 68.58)
+			(xy 187.96 97.79) (xy 191.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4f89ac-8792-4851-bb02-b604cd663ee7")
+	)
+	(wire
+		(pts
+			(xy 102.87 45.72) (xy 102.87 57.15)
 		)
 		(stroke
 			(width 0)
@@ -705,17 +2454,27 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 165.1 110.49)
+			(xy 153.67 59.69) (xy 153.67 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa5ad16d-6844-44f7-9769-5d563cf1b688")
+		(uuid "f72161b4-077f-41d4-bd0c-9d646fe8aaff")
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 142.24 96.52)
+			(xy 172.72 138.43) (xy 172.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92872b7-362d-42b8-bf62-9470098e48b3")
+	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +2484,7 @@
 	)
 	(hierarchical_label "Cell4"
 		(shape input)
-		(at 125.73 82.55 180)
+		(at 62.23 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -734,9 +2493,20 @@
 		)
 		(uuid "07c5c4c5-c9a8-40fb-a3c6-75cd0854f21c")
 	)
+	(hierarchical_label "Cell2_control"
+		(shape input)
+		(at 191.77 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14003197-bb1f-4ac4-b038-df6ad9f0b88e")
+	)
 	(hierarchical_label "Cell2_ADC"
 		(shape output)
-		(at 143.51 104.14 0)
+		(at 83.82 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -745,9 +2515,53 @@
 		)
 		(uuid "180375dd-50cf-401d-bf7c-3fae15f7f38c")
 	)
+	(hierarchical_label "Cell5"
+		(shape input)
+		(at 151.13 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2168f82f-d73f-485b-8e8e-186fab9fe8aa")
+	)
+	(hierarchical_label "Cell1_control"
+		(shape input)
+		(at 191.77 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26ccdeb0-9b5d-45f0-9414-4e057945f7b5")
+	)
+	(hierarchical_label "Cell1"
+		(shape input)
+		(at 151.13 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c8a864c-9efa-4d5b-801a-6b8ca3ddf479")
+	)
+	(hierarchical_label "Cell6_control"
+		(shape input)
+		(at 191.77 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66e69415-85d9-4ee3-8a37-f03fc02fd9f8")
+	)
 	(hierarchical_label "Cell6_ADC"
 		(shape output)
-		(at 143.51 48.26 0)
+		(at 83.82 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -758,7 +2572,7 @@
 	)
 	(hierarchical_label "Cell3"
 		(shape input)
-		(at 125.73 96.52 180)
+		(at 62.23 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -769,7 +2583,7 @@
 	)
 	(hierarchical_label "Cell4_ADC"
 		(shape output)
-		(at 143.51 76.2 0)
+		(at 83.82 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,7 +2594,62 @@
 	)
 	(hierarchical_label "Cell2"
 		(shape input)
-		(at 125.73 110.49 180)
+		(at 151.13 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c4d0bd9-2e1b-465e-8253-aa308e7d2f9c")
+	)
+	(hierarchical_label "Cell5_control"
+		(shape input)
+		(at 191.77 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c6eb4e2-1dd7-4e54-965c-724acc37fce7")
+	)
+	(hierarchical_label "Cell3"
+		(shape input)
+		(at 151.13 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f7b7e6b-8e8d-4152-84f4-4f9c94d4b71e")
+	)
+	(hierarchical_label "Cell3_control"
+		(shape input)
+		(at 191.77 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2a20f1a-2635-4472-b416-8cfc1ab41757")
+	)
+	(hierarchical_label "Cell4_control"
+		(shape input)
+		(at 191.77 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b75ab70d-bc87-4ce3-9474-be2874d13be4")
+	)
+	(hierarchical_label "Cell2"
+		(shape input)
+		(at 62.23 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,7 +2660,7 @@
 	)
 	(hierarchical_label "Cell6"
 		(shape input)
-		(at 125.73 54.61 180)
+		(at 62.23 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,7 +2671,7 @@
 	)
 	(hierarchical_label "Cell1_ADC"
 		(shape output)
-		(at 143.51 119.38 0)
+		(at 83.82 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,7 +2682,7 @@
 	)
 	(hierarchical_label "Cell5_ADC"
 		(shape output)
-		(at 143.51 62.23 0)
+		(at 83.82 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,7 +2693,7 @@
 	)
 	(hierarchical_label "Cell5"
 		(shape input)
-		(at 125.73 68.58 180)
+		(at 62.23 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -835,7 +2704,7 @@
 	)
 	(hierarchical_label "Cell1"
 		(shape input)
-		(at 125.73 125.73 180)
+		(at 62.23 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -844,9 +2713,20 @@
 		)
 		(uuid "dee0bc81-f92f-4e78-97c6-918499a14655")
 	)
+	(hierarchical_label "Cell6"
+		(shape input)
+		(at 151.13 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2789060-2ef7-4c58-97b4-edb9a191490d")
+	)
 	(hierarchical_label "Cell3_ADC"
 		(shape output)
-		(at 143.51 90.17 0)
+		(at 83.82 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -855,33 +2735,73 @@
 		)
 		(uuid "e69043b6-155e-4d74-9f74-975eeddf71b2")
 	)
+	(hierarchical_label "Cell4"
+		(shape input)
+		(at 151.13 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7bc143a-09cf-4432-a34e-69760245e7da")
+	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 82.55 90)
+		(lib_name "C-RESCUE-BLDC_4_37")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 90.17 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "119f051b-45e3-4ba9-8c0f-d3ca10f53a5c")
-		(property "Reference" "R50"
-			(at 134.62 80.01 90)
+		(uuid "11159743-9d79-4aef-a10d-c6f78660ec45")
+		(property "Reference" "C52"
+			(at 92.71 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 134.62 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 134.62 84.328 90)
+		(property "The code for order" "C1206C104K5RAC7210"
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,8 +2809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 82.55 0)
+		(property "Значение" "100 нФ"
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,8 +2818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 82.55 0)
+		(property "Наименование" "Конденсатор керамический 100 нФ 0603"
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,40 +2827,59 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8dfae2b7-7513-410d-95b2-8bc0414970b8")
+		(property "Обозначение" "C"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "C52"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "7142fd74-1d45-44f8-9072-45c76d887b3b")
+			(uuid "f6175a9d-aca3-4455-bb08-875d1489c6d4")
+		)
+		(pin "1"
+			(uuid "76f167ac-bf5b-4b45-9c08-44a39dfca5e0")
 		)
 		(instances
 			(project "BLDC_4"
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R50")
+					(reference "C52")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 110.49 90)
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 90.17 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1768abe8-571e-4326-98d8-1a8b3b518ab1")
-		(property "Reference" "R52"
-			(at 134.62 107.95 90)
+		(uuid "116dbf14-743e-4248-b7fc-a21a4b07ce5c")
+		(property "Reference" "R57"
+			(at 90.17 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 134.62 110.49 90)
+		(property "Value" "2k2"
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +2887,33 @@
 			)
 		)
 		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 134.62 112.268 90)
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "CR-03JL7---2K2"
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,8 +2921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 110.49 0)
+		(property "Значение" "2.2 кОм"
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,8 +2930,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 110.49 0)
+		(property "Наименование" "Чип резистор 2.2 кОм 0603 1%"
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R57"
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,15 +2958,823 @@
 			)
 		)
 		(pin "1"
-			(uuid "5286d369-e44e-4bc9-81ca-54da701cf702")
+			(uuid "2db11499-0436-41ab-8365-9e7566a837cc")
 		)
 		(pin "2"
-			(uuid "c79517fe-6ec0-4ad6-bcdd-a73e03ee6fdf")
+			(uuid "1e964d3c-8d0a-4cc0-8c05-4151c2cce846")
 		)
 		(instances
 			(project "BLDC_4"
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R52")
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay_SolidState:CPC1002N")
+		(at 180.34 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cc889c6-46bb-4f76-b511-e5e3efae5c38")
+		(property "Reference" "U11"
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPC1002N"
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "The code for order" "CPC1002N"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "CPC1002N"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Опто твердотельное реле CPC1002N 0603"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "K"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "U11"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "401d78e5-305a-4c71-bbda-fcdf24c09f54")
+		)
+		(pin "4"
+			(uuid "33134298-3f0a-4460-b7df-10a6e4983d57")
+		)
+		(pin "2"
+			(uuid "cfd434cf-5d43-4e4c-8e8b-73d64d81dc85")
+		)
+		(pin "3"
+			(uuid "d62a2f74-25ac-4057-be85-e1d154e792b4")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 69.85 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23933d93-e4b3-4850-a559-5bb72f397a68")
+		(property "Reference" "R51"
+			(at 69.85 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 69.85 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "18k 1% 0603"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "18 кОм"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 18 кОм 0603 1%"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R51"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d0c2ac2-a9c2-4ff1-a06d-5d4fa71840d9")
+		)
+		(pin "1"
+			(uuid "1e1b421b-fcba-4e27-9af2-50c136832691")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay_SolidState:CPC1002N")
+		(at 180.34 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258f3ee3-a8eb-455d-a435-904bd2ee14e6")
+		(property "Reference" "U13"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPC1002N"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "The code for order" "CPC1002N"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "CPC1002N"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Опто твердотельное реле CPC1002N 0603"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "K"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "U13"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20688dcf-9f18-4024-a04d-4cd4fe5ec429")
+		)
+		(pin "4"
+			(uuid "d20ce10e-6e10-415a-9bfb-d71b72c5bd90")
+		)
+		(pin "2"
+			(uuid "fc71460c-bc9f-4e30-ae61-8adbccfc5da7")
+		)
+		(pin "3"
+			(uuid "03e0472e-4db6-4991-a99b-53ecdc652e4d")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 163.83 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29eed6a1-5e66-4610-b35a-f467b05ce1ef")
+		(property "Reference" "R70"
+			(at 163.83 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16"
+			(at 163.83 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RC0603F16R"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "16 Ом"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 16 Ом 2512 1%"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R70"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c942686-47c1-4226-9c27-b33deaf7acbb")
+		)
+		(pin "1"
+			(uuid "bdd5ca67-aaad-495f-a036-b4fa71a6f0c9")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C-RESCUE-BLDC_4_37")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 90.17 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d4c8f3e-a308-4ebe-844f-362adf6bf907")
+		(property "Reference" "C50"
+			(at 92.71 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "C1206C104K5RAC7210"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "100 нФ"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Конденсатор керамический 100 нФ 0603"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "C"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "C50"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8652be70-4316-465c-953c-88a57bc49f00")
+		)
+		(pin "1"
+			(uuid "ea505fdd-5889-4162-bf6f-72b22f6fce15")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 198.12 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d8b7e00-1040-4c0c-be37-05d26f0293d9")
+		(property "Reference" "R61"
+			(at 198.12 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 198.12 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RS-03K3600FT"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "360 Ом"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 360 Ом 0603 1%"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R61"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c310da77-0e6c-4c02-95d6-49c5e51caadd")
+		)
+		(pin "2"
+			(uuid "462b467f-c491-41da-be52-5713d1824004")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C-RESCUE-BLDC_4_37")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 90.17 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed1756a-ee07-4d4e-93d7-54502bfc823a")
+		(property "Reference" "C48"
+			(at 92.71 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "C1206C104K5RAC7210"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "100 нФ"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Конденсатор керамический 100 нФ 0603"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "C"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "C48"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d95e7256-a793-40ff-9891-65b9ede1068d")
+		)
+		(pin "1"
+			(uuid "575bdce7-db8c-48fb-aefa-e871e12c15c1")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -992,15 +3783,15 @@
 	(symbol
 		(lib_name "GND-RESCUE-BLDC_4_2")
 		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 176.53 90.17 90)
+		(at 153.67 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5926b9a9-d351-4188-a5b1-de45886fa18d")
-		(property "Reference" "#PWR069"
-			(at 176.53 90.17 0)
+		(uuid "30de5545-49e3-41a4-8e31-32fb4b485dad")
+		(property "Reference" "#PWR071"
+			(at 153.67 24.13 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1009,7 +3800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 178.308 90.17 0)
+			(at 153.67 22.352 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1018,7 +3809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 90.17 0)
+			(at 153.67 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1026,7 +3817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 90.17 0)
+			(at 153.67 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1034,7 +3825,297 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 90.17 0)
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a4e34bd-99cc-45ec-bb49-2822ca94821f")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C-RESCUE-BLDC_4_37")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 90.17 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36aac2a0-1693-4e23-9bd0-f1a4981f1794")
+		(property "Reference" "C49"
+			(at 92.71 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "C1206C104K5RAC7210"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "100 нФ"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Конденсатор керамический 100 нФ 0603"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "C"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "C49"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a746b65d-4dfa-46a6-bb2d-3b4eba8b6f60")
+		)
+		(pin "1"
+			(uuid "09fc94bb-bcfa-4699-8215-d9a4d28b4dfb")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 198.12 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba6c9f4-abf6-4875-8990-1b5ff21f6c65")
+		(property "Reference" "R60"
+			(at 198.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 198.12 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RS-03K3600FT"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "360 Ом"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 360 Ом 0603 1%"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R60"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81d88a26-01f3-4e5a-a8cb-607be5642c0e")
+		)
+		(pin "2"
+			(uuid "af1fb03a-00ff-408b-a108-5362076b5c90")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND-RESCUE-BLDC_4_2")
+		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(at 115.57 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5926b9a9-d351-4188-a5b1-de45886fa18d")
+		(property "Reference" "#PWR069"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.348 86.36 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,33 +4135,59 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 96.52 90)
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 163.83 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5bab3263-5e17-4cfd-8268-95606d22a2f2")
-		(property "Reference" "R57"
-			(at 147.828 94.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.05 96.52 90)
+		(uuid "5cb3b158-24b5-42fe-91e7-3fb48702bce1")
+		(property "Reference" "R71"
+			(at 163.83 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 146.05 98.298 90)
+		(property "Value" "16"
+			(at 163.83 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RC0603F16R"
+			(at 163.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,8 +4195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 96.52 0)
+		(property "Значение" "16 Ом"
+			(at 163.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,8 +4204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 96.52 0)
+		(property "Наименование" "Чип резистор 16 Ом 2512 1%"
+			(at 163.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,48 +4213,93 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2be4d1da-fffa-4895-8235-0bdf9eca20f8")
+		(property "Обозначение" "R"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R71"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e84ae3e8-ec0b-46a0-beaa-792602ecb549")
+			(uuid "a422c90e-ba07-49f1-bb27-3866d07b94db")
+		)
+		(pin "1"
+			(uuid "39f70a1d-531e-44ce-bc7f-35d9b41c5a02")
 		)
 		(instances
 			(project "BLDC_4"
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R57")
+					(reference "R71")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 96.52 90)
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 163.83 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6a66e6aa-8b3d-4237-8c78-026d8923dd0f")
-		(property "Reference" "R51"
-			(at 134.62 93.98 90)
+		(uuid "616cd2f9-b453-4c33-8aaf-06ed64a883c3")
+		(property "Reference" "R68"
+			(at 163.83 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 134.62 96.52 90)
+		(property "Value" "16"
+			(at 163.83 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 134.62 98.298 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RC0603F16R"
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,8 +4307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 96.52 0)
+		(property "Значение" "16 Ом"
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,8 +4316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 96.52 0)
+		(property "Наименование" "Чип резистор 16 Ом 2512 1%"
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,41 +4325,59 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "83c9a9c6-3c57-4bc3-b77b-2b4878d3a7a6")
+		(property "Обозначение" "R"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R68"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9711f631-6b0e-4829-89ab-de171949e38b")
+			(uuid "08fc6ee1-4742-4138-b1b1-ad00d68b71db")
+		)
+		(pin "1"
+			(uuid "edaf38be-3996-473e-a7f0-b5e301f16147")
 		)
 		(instances
 			(project "BLDC_4"
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R51")
+					(reference "R68")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 110.49 90)
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 90.17 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7054feca-45ba-4880-859b-9ab6cf346513")
+		(uuid "63b0013c-a0c4-4bab-9d5f-5fc510e557f6")
 		(property "Reference" "R58"
-			(at 147.828 108.204 90)
+			(at 90.17 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 146.05 110.49 90)
+		(property "Value" "2k2"
+			(at 90.17 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +4385,33 @@
 			)
 		)
 		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 146.05 112.268 90)
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "CR-03JL7---2K2"
+			(at 90.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,8 +4419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 110.49 0)
+		(property "Значение" "2.2 кОм"
+			(at 90.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,8 +4428,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 110.49 0)
+		(property "Наименование" "Чип резистор 2.2 кОм 0603 1%"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R58"
+			(at 90.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,10 +4456,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "859cbea0-c701-4a89-941d-a3633bed40cc")
+			(uuid "b2890c8b-cef9-4c5a-9741-60baca85c956")
 		)
 		(pin "2"
-			(uuid "58624f04-8d56-403f-ba18-871c6e5eeb61")
+			(uuid "52b5296d-42b7-4b3d-a033-41172db7582b")
 		)
 		(instances
 			(project "BLDC_4"
@@ -1257,167 +4471,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 54.61 90)
+		(lib_id "Relay_SolidState:CPC1002N")
+		(at 180.34 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9490ff9e-1cc7-4f95-867a-7aadc3052394")
-		(property "Reference" "R48"
-			(at 134.62 52.07 90)
+		(fields_autoplaced yes)
+		(uuid "654c287c-e2e4-4168-86fc-cb68eea191e4")
+		(property "Reference" "U16"
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 134.62 54.61 90)
+		(property "Value" "CPC1002N"
+			(at 180.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 134.62 56.388 90)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 185.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08833b65-d2a8-4736-bd77-54c2940391ba")
-		)
-		(pin "2"
-			(uuid "6c797b21-dd6f-48cd-ba8d-706d3d295145")
-		)
-		(instances
-			(project "BLDC_4"
-				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0c4397f-4368-48f7-b10d-28c7761603e0")
-		(property "Reference" "R49"
-			(at 134.62 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 134.62 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 134.62 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edcb68c4-13d0-45af-a332-defa2890c7d3")
-		)
-		(pin "2"
-			(uuid "04750cde-a575-423b-a877-a81a6cbc513f")
-		)
-		(instances
-			(project "BLDC_4"
-				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b79c2dac-1461-4c4f-8801-d3b92c1107f3")
-		(property "Reference" "R54"
-			(at 147.828 52.324 90)
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10k"
-			(at 146.05 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 146.05 56.388 90)
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,8 +4526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 54.61 0)
+		(property "The code for order" "CPC1002N"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,8 +4535,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 54.61 0)
+		(property "Значение" "CPC1002N"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Опто твердотельное реле CPC1002N 0603"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "K"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "U16"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,40 +4572,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6696785-c1b4-4c7c-8377-9182fa35a66b")
+			(uuid "0d1a0981-a043-4753-abf5-7b64711661dc")
+		)
+		(pin "4"
+			(uuid "3174c3d4-23b4-454e-ba3c-6a761b127d1a")
 		)
 		(pin "2"
-			(uuid "fb1fe4e0-7a29-4ec8-b78a-cb94beb3b94c")
+			(uuid "ad3710da-1c64-4f83-ba1c-fae91065fe02")
+		)
+		(pin "3"
+			(uuid "117a9612-b371-4173-9bb9-dd2ae83e6806")
 		)
 		(instances
 			(project "BLDC_4"
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R54")
+					(reference "U16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 82.55 90)
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 90.17 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4bb8f97-9abf-452b-95d3-2c7476add8ab")
+		(uuid "68f68a6f-3497-4dc3-8e8b-0a04a881ec26")
 		(property "Reference" "R56"
-			(at 147.828 80.264 90)
+			(at 90.17 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 146.05 82.55 90)
+		(property "Value" "2k2"
+			(at 90.17 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +4619,33 @@
 			)
 		)
 		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 146.05 84.328 90)
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "CR-03JL7---2K2"
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,8 +4653,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 82.55 0)
+		(property "Значение" "2.2 кОм"
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,8 +4662,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 82.55 0)
+		(property "Наименование" "Чип резистор 2.2 кОм 0603 1%"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R56"
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,10 +4690,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf32d2d3-f0e7-4fda-818f-da37412896b8")
+			(uuid "e25468c2-16f7-45b7-bc44-ca16f1c3157a")
 		)
 		(pin "2"
-			(uuid "88141c9c-7ab1-4ce3-9a89-c838b49c47e7")
+			(uuid "e494035f-7e3c-4bb7-8eef-abadf62ad17f")
 		)
 		(instances
 			(project "BLDC_4"
@@ -1527,25 +4705,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 125.73 90)
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 69.85 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e232186b-c7ec-4cf2-b01a-e2b6470f99ef")
-		(property "Reference" "R59"
-			(at 147.828 123.444 90)
+		(uuid "6d731148-f338-4062-87aa-892611c12b17")
+		(property "Reference" "R52"
+			(at 69.85 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 146.05 125.73 90)
+		(property "Value" "18k"
+			(at 69.85 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +4731,33 @@
 			)
 		)
 		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 146.05 127.508 90)
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "18k 1% 0603"
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,8 +4765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 125.73 0)
+		(property "Значение" "18 кОм"
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,8 +4774,252 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 125.73 0)
+		(property "Наименование" "Чип резистор 18 кОм 0603 1%"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R52"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f30f1ea4-63bc-4e52-abba-4197b1ad78da")
+		)
+		(pin "1"
+			(uuid "9c725a35-ae0a-4e73-bd5d-1ed7b3ba8c95")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C-RESCUE-BLDC_4_37")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 90.17 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "840bf9cf-0df2-4a75-a32e-77391ba4602d")
+		(property "Reference" "C51"
+			(at 92.71 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "C1206C104K5RAC7210"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "100 нФ"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Конденсатор керамический 100 нФ 0603"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "C"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "C51"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c25fb9a3-c13f-4655-a3f8-09bacff46419")
+		)
+		(pin "1"
+			(uuid "99a38a6b-ef4d-4c32-865c-0b1829623315")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 90.17 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "886099dd-bf04-444c-a09e-f17ad46ad1d7")
+		(property "Reference" "R59"
+			(at 90.17 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 90.17 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "CR-03JL7---2K2"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "2.2 кОм"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 2.2 кОм 0603 1%"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R59"
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,10 +5028,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b48d981-e078-47c6-81de-d0a3bfbe82ab")
+			(uuid "a0b14e33-eb7b-4090-b23f-b35516d06de9")
 		)
 		(pin "2"
-			(uuid "0eb97de4-2997-4d67-8db0-690ea99dff74")
+			(uuid "c328a5a8-cb33-4836-9d56-53afa59191f2")
 		)
 		(instances
 			(project "BLDC_4"
@@ -1595,33 +5043,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 68.58 90)
+		(lib_id "Relay_SolidState:CPC1002N")
+		(at 180.34 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ea7d2c61-949e-43ce-8bbf-8da3a7ae977d")
-		(property "Reference" "R55"
-			(at 147.828 66.294 90)
+		(fields_autoplaced yes)
+		(uuid "930f8da1-c663-4650-af59-9afcad2b2f46")
+		(property "Reference" "U14"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPC1002N"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 185.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+			(at 180.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10k"
-			(at 146.05 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 146.05 70.358 90)
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+			(at 180.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,8 +5098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 68.58 0)
+		(property "The code for order" "CPC1002N"
+			(at 180.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,8 +5107,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 68.58 0)
+		(property "Значение" "CPC1002N"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Опто твердотельное реле CPC1002N 0603"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "K"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "U14"
+			(at 180.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,10 +5144,1494 @@
 			)
 		)
 		(pin "1"
-			(uuid "c285f7c7-c2ab-48f1-9281-08f5717c187a")
+			(uuid "b46ff2eb-ab8d-4428-8d1d-f4fcaba8e31e")
+		)
+		(pin "4"
+			(uuid "befa6eb2-bbd3-46d1-80a2-79b8473e513c")
 		)
 		(pin "2"
-			(uuid "1b5efb67-97b8-4d6f-8d86-74ef323cf8e7")
+			(uuid "c7d64b82-201d-4975-9415-ce138c88ad5b")
+		)
+		(pin "3"
+			(uuid "e0d6a32a-c3d6-4bef-bbbb-94270529911a")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 69.85 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9df0ccda-6a9f-4c20-905b-9037bc7b46c0")
+		(property "Reference" "R49"
+			(at 69.85 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 69.85 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "18k 1% 0603"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "18 кОм"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 18 кОм 0603 1%"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R49"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f4c426d-a616-441a-9641-ba2eda729f21")
+		)
+		(pin "1"
+			(uuid "bc7e3087-ea8c-4eea-af34-163e221d50f7")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 163.83 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0d43749-6193-43e4-9ea7-4f32ba751b41")
+		(property "Reference" "R66"
+			(at 163.83 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16"
+			(at 163.83 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RC0603F16R"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "16 Ом"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 16 Ом 2512 1%"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R66"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aaa1fca1-7f56-4258-bc4a-acc44ea35bde")
+		)
+		(pin "1"
+			(uuid "b0b83296-f8f1-43c3-ad0d-fc5e8b16628e")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 69.85 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0e0ef03-8e80-499d-b229-118169f3d9c7")
+		(property "Reference" "R50"
+			(at 69.85 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 69.85 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "18k 1% 0603"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "18 кОм"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 18 кОм 0603 1%"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R50"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4aedbdaa-a2d7-4bef-aafa-355c199a64d9")
+		)
+		(pin "1"
+			(uuid "a77bf350-2a42-44a4-add3-c0a2f348f492")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 163.83 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7645bb8-cd9b-47c6-8bb2-97cc8eb36d77")
+		(property "Reference" "R69"
+			(at 163.83 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16"
+			(at 163.83 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RC0603F16R"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "16 Ом"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 16 Ом 2512 1%"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R69"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f17ab76-1580-41c9-8989-22197247c31e")
+		)
+		(pin "1"
+			(uuid "19d25604-95e1-4076-b7fa-823cbe464863")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 198.12 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a796a5cf-a470-4cfe-b35f-8c7a3913fa22")
+		(property "Reference" "R62"
+			(at 198.12 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 198.12 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RS-03K3600FT"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "360 Ом"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 360 Ом 0603 1%"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R62"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "995703d8-b554-4056-b827-dee7bffad19c")
+		)
+		(pin "2"
+			(uuid "a944a5d4-15c3-4f7d-acb4-bdc6134d9d1f")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay_SolidState:CPC1002N")
+		(at 180.34 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad144ea8-caf6-4d73-a914-c873f462551a")
+		(property "Reference" "U15"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPC1002N"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "The code for order" "CPC1002N"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "CPC1002N"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Опто твердотельное реле CPC1002N 0603"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "K"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "U15"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3cef91a-cbb8-48d5-b401-5090a8ea9dbd")
+		)
+		(pin "4"
+			(uuid "a2e13439-8b22-4074-ac61-6fbd8a6d1036")
+		)
+		(pin "2"
+			(uuid "d6ea0a15-4d7f-43da-a6a9-eb641330df2e")
+		)
+		(pin "3"
+			(uuid "cfb1b513-8ff5-4415-95f4-7fd3bed070d5")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 198.12 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "badea02f-3569-405c-a11a-100b172e2718")
+		(property "Reference" "R64"
+			(at 198.12 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 198.12 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RS-03K3600FT"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "360 Ом"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 360 Ом 0603 1%"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R64"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "518e7745-da8f-4167-a21d-c7c965d13d10")
+		)
+		(pin "2"
+			(uuid "95e16be9-98b9-4a48-a077-65aa9aa094f6")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 198.12 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc6c3909-6b72-43db-8960-63eed5f7fbf9")
+		(property "Reference" "R65"
+			(at 198.12 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 198.12 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RS-03K3600FT"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "360 Ом"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 360 Ом 0603 1%"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R65"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f617445e-87f4-44e1-a448-cd3c1c76b48e")
+		)
+		(pin "2"
+			(uuid "778720e8-e5ca-4af2-9561-e896f808de9c")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay_SolidState:CPC1002N")
+		(at 180.34 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ddc8cc-aa87-44b1-a8f5-7e623e454c5f")
+		(property "Reference" "U12"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPC1002N"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "The code for order" "CPC1002N"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "CPC1002N"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Опто твердотельное реле CPC1002N 0603"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "K"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "U12"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b777b88a-9433-45bd-b520-a5a9238b6991")
+		)
+		(pin "4"
+			(uuid "a6276a45-c2d6-4806-ac62-635de20c5312")
+		)
+		(pin "2"
+			(uuid "2b42e8f8-f107-4ce3-9243-fbfc49ce6e71")
+		)
+		(pin "3"
+			(uuid "6e58a8cb-25be-478b-8225-01a4a2b0fcd8")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 69.85 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3eff91d-8733-44ae-9c28-431d341b9cb1")
+		(property "Reference" "R53"
+			(at 69.85 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 69.85 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "18k 1% 0603"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "18 кОм"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 18 кОм 0603 1%"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R53"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ebc9eb4-9009-49a3-b3f1-5d34b3f56f15")
+		)
+		(pin "1"
+			(uuid "1f9860a6-f34e-4ed7-9af2-31b6c063f22f")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 198.12 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6d98d74-3160-41ef-8257-533e493403f2")
+		(property "Reference" "R63"
+			(at 198.12 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 198.12 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RS-03K3600FT"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "360 Ом"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 360 Ом 0603 1%"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R63"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "916bb69c-0e27-485e-afca-1fed71766f18")
+		)
+		(pin "2"
+			(uuid "48e4eafe-31e9-47de-9a8f-491846a537bb")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C-RESCUE-BLDC_4_37")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 90.17 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e894798e-5649-454c-b9b4-c570f72aa2b2")
+		(property "Reference" "C53"
+			(at 92.71 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "C1206C104K5RAC7210"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "100 нФ"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Конденсатор керамический 100 нФ 0603"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "C"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "C53"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5747fdd-8eb1-4669-a344-87c957b4e229")
+		)
+		(pin "1"
+			(uuid "8dce4760-52ae-48b0-9054-926af979c22f")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 90.17 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1edb0d0-9f8b-4e99-8bf4-bddffb3cc5c2")
+		(property "Reference" "R55"
+			(at 90.17 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 90.17 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "CR-03JL7---2K2"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "2.2 кОм"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 2.2 кОм 0603 1%"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R55"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f9e0809-ab68-4fcc-bb3b-527a90a01347")
+		)
+		(pin "2"
+			(uuid "08861f31-1c2b-4670-9475-c01aada3c3d2")
 		)
 		(instances
 			(project "BLDC_4"
@@ -1663,24 +6643,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 125.73 90)
+		(lib_name "R-RESCUE-BLDC_4_22")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 90.17 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f86a481f-fc2d-4e1b-ad90-73c6ff0f169e")
-		(property "Reference" "R53"
-			(at 134.62 123.19 90)
+		(uuid "f2dd2bf3-a5bb-4204-b90a-c28b2dd01c60")
+		(property "Reference" "R54"
+			(at 90.17 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 134.62 125.73 90)
+		(property "Value" "2k2"
+			(at 90.17 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +6669,33 @@
 			)
 		)
 		(property "Footprint" "CRF1:SMD-0603_r"
-			(at 134.62 127.508 90)
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "CR-03JL7---2K2"
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,8 +6703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 125.73 0)
+		(property "Значение" "2.2 кОм"
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,8 +6712,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 125.73 0)
+		(property "Наименование" "Чип резистор 2.2 кОм 0603 1%"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R54"
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,15 +6740,239 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7edcfc8-9c05-480e-80dd-5f374aac2b5d")
+			(uuid "43af80ac-b6fe-4781-bfe2-48d1593b5334")
 		)
 		(pin "2"
-			(uuid "e324bde7-8f84-4db1-8989-47aaf434c2ae")
+			(uuid "b9c1b21d-6589-4a46-8180-164893732f4c")
 		)
 		(instances
-			(project ""
+			(project "BLDC_4"
 				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
-					(reference "R53")
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 163.83 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f811f82b-b0ad-401a-a811-6bffedacc085")
+		(property "Reference" "R67"
+			(at 163.83 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16"
+			(at 163.83 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "RC0603F16R"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "16 Ом"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 16 Ом 2512 1%"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R67"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56d78ba6-a2b4-45f6-898f-552ae7fad774")
+		)
+		(pin "1"
+			(uuid "39250287-a110-4d97-831b-b02d0698cc51")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-RESCUE-BLDC_4_29")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 69.85 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc75f220-f0d3-4ef8-ae4d-a35795c0d04c")
+		(property "Reference" "R48"
+			(at 69.85 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 69.85 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "The code for order" "18k 1% 0603"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Значение" "18 кОм"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Наименование" "Чип резистор 18 кОм 0603 1%"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение" "R"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Позиционное обозначение" "R48"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bed6359c-961d-4c76-bf53-f6df3588fa71")
+		)
+		(pin "1"
+			(uuid "e759cefe-27a4-4a5f-a2a5-7043f994c1f8")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/4e37e2da-f0c5-4e16-8054-f3124781dd7a/a07a45de-515e-4e45-b6a8-d63233408b1f"
+					(reference "R48")
 					(unit 1)
 				)
 			)
